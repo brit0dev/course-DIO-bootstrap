@@ -1,0 +1,13 @@
+.btn {
+  --bs-btn-bg: #198754;
+  --bs-btn-border-color: #146c43;
+  --bs-btn-color: #fff;
+  --bs-btn-hover-bg: #146c43;
+  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-active-bg: #064327;
+  --bs-btn-active-border-color: #064327;
+}
+
+.app__logo {
+  width: 3rem;
+}
