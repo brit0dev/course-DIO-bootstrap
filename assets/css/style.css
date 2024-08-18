@@ -24,7 +24,8 @@
   width: 100%;
 }
 
-.carousel-item__img {
+.carousel-item__img,
+.card__img {
   height: 100%;
   object-fit: cover;
   object-position: center;
