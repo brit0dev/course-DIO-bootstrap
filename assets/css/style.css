@@ -1,11 +1,20 @@
+:root {
+  --primary-color: #198754;
+  --secondary-color: #146c43;
+  --darker-green: #064327;
+
+  --bs-link-color: var(--primary-color);
+  --bs-link-hover-color: var(--secondary-color);
+}
+
 .btn {
-  --bs-btn-bg: #198754;
-  --bs-btn-border-color: #146c43;
+  --bs-btn-bg: var(--primary-color);
+  --bs-btn-border-color: var(--secondary-color);
   --bs-btn-color: #fff;
-  --bs-btn-hover-bg: #146c43;
-  --bs-btn-hover-border-color: #146c43;
-  --bs-btn-active-bg: #064327;
-  --bs-btn-active-border-color: #064327;
+  --bs-btn-hover-bg: var(--secondary-color);
+  --bs-btn-hover-border-color: var(--secondary-color);
+  --bs-btn-active-bg: var(--darker-green);
+  --bs-btn-active-border-color: var(--darker-green);
 }
 
 .app__logo {
@@ -37,4 +46,8 @@
 }
 .coffee-cards__card {
   height: 25rem;
+}
+
+.container:target {
+  scroll-margin-top: 6rem;
 }
